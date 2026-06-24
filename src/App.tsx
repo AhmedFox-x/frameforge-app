@@ -257,10 +257,10 @@ export default function App() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2 text-sm text-white/20">
             <Film size={14} className="text-frost-400/50" />
-            <span>FrameForge &mdash; Open source video frame extractor</span>
+            <span>FrameForge — Video to Frames Converter</span>
           </div>
-          <p className="text-xs text-white/10">
-            Built with FFmpeg WASM &bull; All processing happens client-side
+          <p className="text-xs text-white/20">
+            &copy; {new Date().getFullYear()} <span className="text-frost-400/50 font-medium">Ahmed Fox</span> &bull; All rights reserved
           </p>
         </div>
       </footer>
